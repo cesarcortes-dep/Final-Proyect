@@ -1,0 +1,20 @@
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header"
+    "navbar main main main main"
+    "navbar main main main main"
+    "navbar main main main main";
+}
+
+.header {
+  grid-area: header;
+}
+
+.main {
+  grid-area: main;
+}
+
+.navbar{
+  grid-area:navbar;
+}
